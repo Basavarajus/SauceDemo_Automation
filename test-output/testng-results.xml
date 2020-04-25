@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33473" started-at="2020-04-25T13:14:41 GMT+05:30" finished-at="2020-04-25T13:15:15 GMT+05:30">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33473" started-at="2020-04-25T13:14:41 GMT+05:30" finished-at="2020-04-25T13:15:15 GMT+05:30">
+      <class name="com.saucedemo.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="setup" is-config="true" duration-ms="18454" started-at="2020-04-25T13:14:42 GMT+05:30" finished-at="2020-04-25T13:15:00 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitle()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="loginpagetitle" duration-ms="26" started-at="2020-04-25T13:15:00 GMT+05:30" finished-at="2020-04-25T13:15:00 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="tearDown" is-config="true" duration-ms="1053" started-at="2020-04-25T13:15:00 GMT+05:30" finished-at="2020-04-25T13:15:01 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="setup" is-config="true" duration-ms="8001" started-at="2020-04-25T13:15:01 GMT+05:30" finished-at="2020-04-25T13:15:09 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="logintest" duration-ms="4798" started-at="2020-04-25T13:15:09 GMT+05:30" finished-at="2020-04-25T13:15:14 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@62e93c3a]" name="tearDown" is-config="true" duration-ms="1063" started-at="2020-04-25T13:15:14 GMT+05:30" finished-at="2020-04-25T13:15:15 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
