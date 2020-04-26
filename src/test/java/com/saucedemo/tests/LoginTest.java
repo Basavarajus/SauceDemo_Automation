@@ -17,7 +17,7 @@ public class LoginTest extends TestBase
     @BeforeMethod
     public void setup() {
         initialization();
-        this.loginpage = new SaucedemoLoginPage();
+       loginpage = new SaucedemoLoginPage();
     }
     
     @Test
@@ -28,7 +28,7 @@ public class LoginTest extends TestBase
     
     @Test
     public void logintest() {
-        Homepage =loginpage.Login(LoginTest.prop.getProperty("username"), LoginTest.prop.getProperty("pass"));
+        Homepage =loginpage.Login(prop.getProperty("username"),prop.getProperty("pass"));
         System.out.println(Homepage);
     }
     

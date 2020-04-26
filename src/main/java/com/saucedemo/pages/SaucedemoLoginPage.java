@@ -25,10 +25,10 @@ public class SaucedemoLoginPage extends TestBase
     }
     
     public SaucedemoHomePage Login(final String un, final String pass) {
-        this.username.sendKeys(new CharSequence[] { un });
-        this.password.sendKeys(new CharSequence[] { pass });
-        final JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("arguments[0].click();", new Object[] { this.loginbutton });
+        username.sendKeys(un);
+        password.sendKeys(pass);
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", loginbutton );
         System.out.println("Successfully logged into saucedemolabs");
         return new SaucedemoHomePage();
     }
